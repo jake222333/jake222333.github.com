@@ -4,7 +4,7 @@ body {
 
 	font-size: 1em; /* 16px */
 
-	color: #000000;
+	color:  #ffffff;
 
     line-height: 24px;
 
@@ -70,32 +70,6 @@ h3  {
 	border-radius: 5px / 5px;
 
 }
-
-
-
-/*these are my styles for all my linking elements*/
-
-
-
- /* unvisited link */
-
-
-
-
-
-
-/* 
-.top  {
-
-	width: 100%;
-
-	background-color:#F47779;
-
-	height: 46px;
-
-} */
-
-
 
 
 
@@ -165,7 +139,7 @@ header h1 {
 
 	text-transform: none;
 
-	color: #F47779;
+	color:  #f05439;
 
 	line-height: 100%;
 
@@ -179,7 +153,7 @@ header h1 {
 
 	height: auto;
 
-	background-image: url(../images/banner_text_bg.gif);
+	/* background-image: url(../images/banner_text_bg.gif); */
 
 	background-repeat: no-repeat;
 
@@ -189,7 +163,9 @@ header h1 {
 
 	-webkit-box-shadow: 0px 0px 10px;
 
-	box-shadow: 0px 0px 10px;
+	box-shadow: 0px 0px 10px  #5388f8;
+
+	
 
 }
 
@@ -203,7 +179,7 @@ header h2 {
 
 	height: auto;
 
-	color:rgb(0, 0, 0);
+	color:#213d7a;
 }
 
 
@@ -294,17 +270,17 @@ header h2 {
 section{
 	width: 35%;
 	margin: 40px 2% 0px auto;
-	background-color: #F5BFC0;
-	-webkit-box-shadow: 5px 5px 3px #F47779;
-	box-shadow: 5px 5px 3px #F47779;
+	background-color:  #477cf0;
+	-webkit-box-shadow: 5px 5px 3px rgb(170, 200, 255);
+	box-shadow: 5px 5px 3px rgb(230, 134, 96);
 }
 
 aside{
 	width: 26%;
 	margin: 40px auto 0px auto;
-	background-color: #F47779;
-	-webkit-box-shadow: 5px 5px 3px #CFA9AA;
-	box-shadow: 5px 5px 3px #CFA9AA;
+	background-color: rgb(231, 119, 84);
+	-webkit-box-shadow: 5px 5px 3px rgb(98, 157, 235);
+	box-shadow: 5px 5px 3px rgb(122, 150, 241);
 }
 
 
@@ -337,7 +313,7 @@ ol li{
 
 	margin-bottom: 10px;
 
-	border: 2px dashed #F47779;
+	border: 2px dashed rgb(255, 255, 255);
 
 	border-radius: 5px / 5px;
 
@@ -355,7 +331,7 @@ ol li a:link {
 
 	display: block;
 
-	color:#451A1B;
+	color:rgb(255, 255, 255);
 
 	text-align: center;
 
@@ -376,7 +352,7 @@ ol li a:visited {
 
 ol li a:hover {
 
-	background-color: #ffffff;
+	background-color: #161d5c;
 	
 }
 
@@ -468,7 +444,7 @@ footer  {
 
 	width: 100%;
 
-	background-color:#F47779;
+	background-color:#da5b12;
 
 	height: 65px;
 
@@ -648,7 +624,7 @@ header h1 {
 
     text-transform: none;
 
-	color:#F47779;
+	color:rgb(247, 113, 72);
 
     line-height: 100%;
 
@@ -687,7 +663,7 @@ section{
 
 	margin: 40px 2% 0px auto;
 
-	background-color:#F5BFC0;
+	background-color:#477cf0;
 
 }
 
@@ -697,7 +673,7 @@ aside{
 
 	margin: 40px auto 0px auto;
 
-	background-color: #F47779;
+
 
 }
 
