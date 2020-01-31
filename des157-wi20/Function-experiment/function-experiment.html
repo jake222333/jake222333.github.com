@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS Function Experimentation</title>
+</head>
+<body>
+    <h1 id="color">JS Function Experimentation</h1>
+    <script>
+         var yourname=prompt("Are you Bob", "");
+         var game = ["role playing", "action", "sport", "strategy"];
+         var myInteger = prompt("How many game do you want to play? please enter a number between 1 and 10", "");
+
+        function hello(name){
+            var yesOrNo;
+            if (name== 'yes' || name=='YES') {
+                yesOrNo="Welcome back to the UCD gaming club";
+                if( parseInt(myInteger) ){
+                    console.log(`You want to play ${myInteger} games`);
+                } else{ console.log("you don't have an integer"); }
+            } else {
+                yesOrNo= `Please type yes if you want to review the content of UDC gameing club`;
+            }    
+            return yesOrNo;     
+        }
+
+        function randomInt(min,max) {
+            return Math.floor((max-min+1)*Math.random())+min;
+        }
+    
+        function selectGame(name,games){
+            console.log( hello(name) );
+            var randomGame=games[randomInt(0,games.length-1)];
+            console.log( `Do you want to play ${randomGame} game today? `);
+        }
+        selectGame (yourname, game);
+        
+        document.getElementById('color').style.color="blue";
+
+    </script>
+</body>
+</html>
