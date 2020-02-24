@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    width:100%;
+    margin: auto;
+    background-image: url("images/rectangle1.svg");
+    font-family: 'Poppins' ;
+    width:800px;
+  }
+  
+  h1 {
+    text-align: center;
+    width: 100%;
+    font-size: 3em;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+  }
+
+  h2 {
+      color: aliceblue;
+      text-align: center;
+  }
+
+  body p {
+    font-family: 'Hind' ;
+    font-weight: 200;
+    font-size: 1.1em;
+    color: aliceblue;
+  }
+
+  img {
+    padding: 5px;
+    width: 150px;
+    margin-left: 80px;
+  }
+
+  
