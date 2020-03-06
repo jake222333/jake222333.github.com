@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.box {
+    height: 100vh;
+    width: 100%;
+   
+}
+
+.single-box .div-left {
+    width: 49%;
+    height: auto;
+    float: left;
+}
+
+.single-box .div-right{
+    width: 49%;
+    height: auto;
+    float: right;
+}
+
+p {
+    padding: 25% 15%;
+    font-size: 20px ;
+    color : #fff;
+}
+
+img {
+  padding: 20% 5% 0 5%;  
+}
+
+.color1 {
+    background-image: url(../images/lucky6.jpg);
+	background-repeat:no-repeat;
+    background-position:center center;
+    background-size: 100% auto;
+}
+
+.color2 {
+    background: #ff7675;
+}
+
+.color3 {
+    background: #00b894;
+}
+
+.color4 {
+    background: #e84393;
+}
+
+.color5 {
+    background: #ffa502;
+}
+
+.color6 {
+    background: #7bed9f;
+}
