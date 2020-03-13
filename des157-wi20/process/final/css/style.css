@@ -1,0 +1,309 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 75%;
+    left: 160%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border-radius: 10px;
+    z-index: 10;
+    background-color:  rgba(95, 48, 36, 0.8);
+    width: 500px;
+    max-width: 80%;
+  }
+  
+  .modal.active {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  
+  .modal-header {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    color: white;
+  }
+  
+  .modal-header .title {
+    font-size: 1.25rem;
+    font-weight: bold;
+ 
+  }
+  
+  .modal-header .close-button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .modal-body {
+    padding: 10px 15px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px;
+    color: white;
+  }
+  
+  #overlay {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0,);
+    pointer-events: none;
+  }
+  
+  #overlay.active {
+    opacity: 1;
+    pointer-events: all;
+  }
+
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.box {
+    height: 100vh;
+    width: 100%;
+   
+}
+
+
+.top-banner {
+ 
+    background-position:40% center;
+    background-size:2% auto;
+    position:relative;
+}
+
+
+.single-box .div-left {
+    width: 49%;
+    height: auto;
+    float: left;
+}
+
+.single-box .div-right{
+    width: 49%;
+    height: auto;
+    float: right;
+}
+
+
+
+img {
+  padding: 20% 5% 0 5%;  
+}
+
+.color1 {
+    background-image: url(../images/mural.jpg);
+	background-repeat:no-repeat;
+    background-position:center center;
+    background-size: 100% auto;
+}
+
+.color1 p {
+    padding: 5% 5% 5% 5%;
+    margin-left: 15%;
+    margin-top: 15%;
+    font-size: 25px ;
+    color : #fff;
+    background-color:rgba(95, 48, 36, 0.8);
+    border-radius: 10px;
+    line-height: 28px;
+}
+
+.color3 p {
+    padding: 5% 5% 5% 5%;
+    margin-left: 15%;
+    margin-top: 15%;
+    font-size: 25px ;
+    color : #fff;
+    background-color:rgba(95, 48, 36, 0.8);
+    border-radius: 10px;
+    line-height: 28px;
+}
+
+
+
+
+.color2 {
+    background-image: url(../images/mutiMedia.jpg);
+	background-repeat:no-repeat;
+    background-position:center center;
+    background-size: 100% auto;
+    line-height: 35px;
+}
+
+.color2 p {
+    padding: 5% 5% 5% 5%;
+    margin-right: 15%;
+    margin-top: 15%;
+    font-size: 25px ;
+    color : #fff;
+    border-radius: 10px;
+    background-color:rgba(4, 112, 159, 0.8);
+ 
+}
+
+
+.color3 {
+    background-image: url(../images/tips.jpg);
+	background-repeat:no-repeat;
+    background-position:center center;
+    background-size: 100% auto;
+}
+
+.color3 h1 {
+    text-align: center;
+	font-size: 50px;
+	font-family: 'Poppins', sans-serif;
+	color: #F7FF00;
+    margin: 0em;
+    padding-top: 5%;
+    font-weight: 700;
+    font-weight: bold;
+    text-shadow: 2px 2px #3d3d3d;
+}
+
+.color4 {
+    background: #e84393;
+}
+
+.color5 {
+    background: #ffa502;
+}
+
+.color6 {
+    background: #7bed9f;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.top-bander {
+	width: 100%;
+	height: 50px;
+	color: #76b3e1;
+    padding-top: 20px;
+    text-align: center;
+}
+
+header div h1 {
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Raleway', sans-serif;
+	color: #F65C5C;
+    margin: 10px;
+    padding-top: 5px;
+}
+
+button {
+    color: #5F3024;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#slider-wrapper {
+	width: 1000px;
+	height: 600px;
+    margin: auto;
+    margin-top: 3%;
+	position: relative;
+	overflow: hidden;
+}
+
+ul,
+li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#slider-wrapper ul {
+	width: 5000px;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: left 700ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+#slider-wrapper ul li {
+	background-size: cover;
+	position: relative;
+	width: 1000px;
+	height: 600px;
+	float: left;
+}
+/* 
+#slider-wrapper ul li:nth-child(1) {
+	background-image: url(../images/leaves01.jpg);
+}
+#slider-wrapper ul li:nth-child(2) {
+	background-image: url(../images/leaves02.jpg);
+}
+#slider-wrapper ul li:nth-child(3) {
+	background-image: url(../images/leaves03.jpg);
+}
+#slider-wrapper ul li:nth-child(4) {
+	background-image: url(../images/leaves04.jpg);
+}
+#slider-wrapper ul li:nth-child(5) {
+	background-image: url(../images/leaves05.jpg);
+} */
+
+.content {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	width: 300px;
+	padding: 20px;
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+#slider-controls {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	background-color: #333;
+	justify-content: space-between;
+}
+
+#slider-controls a {
+	display: block;
+	padding: 20px;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	width: 200px;
+	background-color: #666;
+}
