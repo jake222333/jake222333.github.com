@@ -60,15 +60,19 @@
              
             </div>
 
-            <div class="div-right" data-aos="zoom-out-right">
-                <p id="rightDiv">In modern society, people have more 
-                    access to information that they need. They often do not verify whether it is 
-                    true or not. Hunt Allcott and Matthew Gentzkow provide a list that reveals that more and more people get news from social media. <br><br>The article shows that 62 percent of US adults get news on social media, the most popular fake news stories were more widely shared on Facebook than the most popular mainstream news stories and that many people who see fake news stories report that they believe them (Allcott and Gentzkow 234).
-                
-                </p>
-
-                
-               
+            <div class="div-right" data-aos="flip-right">
+                <div class="main">
+                    <p id="readless">
+                        In modern society, people have more 
+                    access to information that they need. 
+                    <span id="dots">...</span></p>
+            
+                    <p id="readmore">
+                    They often do not verify whether it is 
+                    true or not.Hunt Allcott and Matthew Gentzkow provide a list that reveals that more and more people get news from social media. The article shows that 62 percent of US adults get news on social media, the most popular fake news stories were more widely shared on Facebook than the most popular mainstream news stories and that many people who see fake news stories report that they believe them (Allcott and Gentzkow 234).
+                    </p>
+                    <button id="Read" onclick="Read()">BUT</button>
+                </div>
             </div>
         </div>
     </div>
@@ -81,7 +85,7 @@
             data-aos-easing="linear"
             data-aos-duration="1500">
                 <!-- <img src="http://via.placeholder.com/600X400" alt=""> -->
-                <p>Social media giants are fighting coronavirus fake news. It’s still spreading like wildfire.</p>
+                <p>Recently, social media giants are fighting coronavirus fake news. It’s still spreading like wildfire.</p>
             </div>
 
             <div class="div-right"  data-aos="fade-down">
@@ -187,12 +191,26 @@
       AOS.init();
     </script>
     <script defer src="script.js"></script>
-
-
-
-
-    
     </script>
-    
+
+    <script>
+        var i=0;
+        var readmore=document.getElementById('readmore');
+        var dots=document.getElementById('dots');
+        var btn = document.getElementById('Read');
+        function Read(){
+            if (i==0){
+                readmore.style.display="block";
+                dots.style.display="none";
+                btn.innerHTML="SHOW LESS";
+                i=1;
+            } else {
+                readmore.style.display="none";
+                dots.style.display="block";
+                i=0;
+                btn.innerHTML="BUT";
+            }
+        }
+    </script>
 </body>
 </html>

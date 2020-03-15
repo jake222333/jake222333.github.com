@@ -188,7 +188,7 @@ img {
     color : #fff;
     background-color:rgba(4, 112, 159, 0.8);
     border-radius: 10px;
-    line-height: 28px;
+    line-height: 35px;
 }
 
 .color3 p {
@@ -305,6 +305,18 @@ header div h1 {
 
 button {
     color: #5F3024;
+    border: none;
+    outline: none;
+    font-size: 30px;
+    background:white;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 1%;
+
+}
+
+#Read {
+  color:#76b3e1 ;
 
 }
 
@@ -404,5 +416,19 @@ header {
     -webkit-flex-flow: row wrap;
     flex-flow: row wrap;
 }
+
+main {
+  height: 100vh;
+  width: 100%;
+  padding: 10%;
+  box-sizing: border-box;
+
+}
+
+#readmore {
+  display: none;
+}
+
+
 
 
