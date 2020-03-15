@@ -191,7 +191,7 @@ img {
     line-height: 35px;
 }
 
-.color3 p {
+/* .color3 p {
     padding: 5% 5% 5% 5%;
     margin-left: 15%;
     margin-top: 15%;
@@ -200,7 +200,7 @@ img {
     background-color:rgba(95, 48, 36, 0.8);
     border-radius: 10px;
     line-height: 35px;
-}
+} */
 
 
 .color5 p {
@@ -252,14 +252,15 @@ img {
 
 .color3 h1 {
     text-align: center;
-	font-size: 50px;
+	font-size: 45px;
 	font-family: 'Poppins', sans-serif;
 	color: #F7FF00;
-    margin: 0em;
-    padding-top: 5%;
-    font-weight: 700;
-    font-weight: bold;
-    text-shadow: 2px 2px #3d3d3d;
+  margin: 0em;
+  padding-top: 5%;
+  font-weight: 700;
+  font-weight: bold;
+  text-shadow: 2px 2px #3d3d3d;
+  word-spacing: 0.2em;
 }
 
 .color4 {
@@ -312,7 +313,8 @@ button {
     cursor: pointer;
     border-radius: 5px;
     padding: 1%;
-
+    font-size: 25px ;
+    font-family: 'Poppins', sans-serif;
 }
 
 #Read {
@@ -354,30 +356,33 @@ li {
 	height: 600px;
 	float: left;
 }
-/* 
+
 #slider-wrapper ul li:nth-child(1) {
-	background-image: url(../images/leaves01.jpg);
+	background-image: url(../images/book.jpg);
 }
 #slider-wrapper ul li:nth-child(2) {
-	background-image: url(../images/leaves02.jpg);
+	background-image: url(../images/reading.jpg);
 }
 #slider-wrapper ul li:nth-child(3) {
-	background-image: url(../images/leaves03.jpg);
+	background-image: url(../images/child.jpg);
 }
-#slider-wrapper ul li:nth-child(4) {
-	background-image: url(../images/leaves04.jpg);
-}
-#slider-wrapper ul li:nth-child(5) {
-	background-image: url(../images/leaves05.jpg);
-} */
 
 .content {
-	position: absolute;
+  margin: auto;
+  margin-top: 2%;
 	top: 20px;
 	left: 20px;
-	width: 300px;
+	width: 400px;
 	padding: 20px;
-	background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.7);
+  line-height: 28px;
+  color: rgb(33, 33, 37);
+
+}
+
+.content>h2 {
+  font-size: 1.2em;
+  color: rgb(119, 101, 22);
 }
 
 #slider-controls {

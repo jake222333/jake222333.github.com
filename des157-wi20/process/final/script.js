@@ -37,22 +37,6 @@ function closeModal(modal) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 window.addEventListener('load',function(){
   //How many slides?
   const slideCount = document.querySelectorAll('#slider-wrapper ul li').length;
