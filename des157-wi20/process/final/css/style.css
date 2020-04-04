@@ -82,17 +82,24 @@ body {
   overflow-x: hidden;
 }
 
-.color1>h1 {
+#color1h1 {
   text-align: center;
   margin:0 auto;
-  padding: 430px 0;
-  width: 55%;
+  width: 70%;
   color: white;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: calc(2.8em + 1vw);
-  font-weight: 250;
+  font-size: calc(4em + 1vw);
+  font-weight: 300;
+  line-height: 120%;
+  padding: 421px 0;
 }
 
+.color1 {
+  background-image: url("../images/home.jpg");
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-size: cover;
+}
 
 .color4>h1 {
   text-align: center;
@@ -101,7 +108,7 @@ body {
   color: white;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: calc(2.8em + 1vw);
-  font-weight: 250;
+  font-weight: 300;
   background-color: rgba(66, 66, 66, .55);
   padding: 1% 0 1% 0;
 }
@@ -177,12 +184,7 @@ img {
   padding: 20% 5% 0 5%;  
 }
 
-.color1 {
-    background-image: url("../images/home.jpg");
-	background-repeat:no-repeat;
-    background-position:center center;
-    background-size: 100% auto;
-}
+
 
 .color1 p {
     padding: 5% 5% 5% 5%;
@@ -230,15 +232,6 @@ img {
 }
 
 
-
-
-.color2 {
-    background-image: url(../images/seondImage.jpg);
-	  background-repeat:no-repeat;
-    background-position:center center;
-    background-size: 100% auto;
-   
-}
 
 .s2 p {
   padding: 2% 5% 2% 5%;
@@ -307,22 +300,23 @@ img {
   background-image: url(../images/moredigital.jpg);
   background-repeat:no-repeat;
   background-position:center center;
-  background-size: 100% auto;
+  background-size: cover;
 }
 
 .color5 {
     background-image: url(../images/virusPic.jpg);
 	background-repeat:no-repeat;
     background-position:center center;
-    background-size: 100% auto;
+    background-size: cover;
 }
+
 
 .color7 {
   background-image: url("../images/socialMedia222.jpg");
   background-repeat:no-repeat;
   background-position:center center;
-  background-size: 100% auto;
-} 
+  background-size: cover;
+}
 
 p {
   font-family: 'Helvetica Neue LT Std';
@@ -487,21 +481,21 @@ header {
   background-image: url("../images/seondImage.jpg");
 background-repeat:no-repeat;
   background-position:center center;
-  background-size: 100% auto;
+  background-size: cover;
 }
 
 .s4 {
   background-image: url("../images/virusPic.jpg");
   background-repeat:no-repeat;
   background-position:center center;
-  background-size: 100% auto;
+  background-size: cover;
 }
 
 .s5 {
   background-image: url("../images/phoneLooking.jpg");
   background-repeat:no-repeat;
   background-position:center center;
-  background-size: 100% auto;
+  background-size: cover;
 }
 
 #fp-nav ul li a span, 
@@ -513,27 +507,27 @@ background-repeat:no-repeat;
   background-image: url(../images/reading.jpg);
   background-repeat:no-repeat;
   background-position:center center;
-  background-size: 100% auto;
+  background-size: cover;
 }
 #slide2{
   background-image: url(../images/reserach.jpg);
   background-repeat:no-repeat;
   background-position:center center;
-  background-size: 100% auto;
+  background-size: cover;
 }
 
 #slide3{
   background-image: url(../images/phoneRead.jpg);
   background-repeat:no-repeat;
   background-position:center center;
-  background-size: 100% auto;
+  background-size: cover;
 }
 
 #slide4{
   background-image: url(../images/child.jpg);
   background-repeat:no-repeat;
   background-position:center center;
-  background-size: 100% auto;
+  background-size: cover;
 }
 .slide{
   background-size: cover;
