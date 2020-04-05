@@ -2,5 +2,14 @@ new fullpage('#fullpage', {
     autoScrolling: true,
     navigation:true,
     controlArrows: true,
-    
+    keyboardScrolling: true,
+    scrollingSpeed: 600,
+    navigationTooltips: ['Main page', 'Ancient Era', 'Internet Era', 'Coronavirus fake news', 'People share rumors', 'What if', 'Tips','Read more'],
+    onLeave: (origin, destination, direction) => {
+        const section = destination.item;
+        const title = section.querySelector("h1");
+        const tl = new TimelineMax({ delay: 0.5 });
+        tl.fromTo(title, 0.5, { y: "50", opacity: 0 }, { y: "0", opacity: 1 });
+    }
 });
+
