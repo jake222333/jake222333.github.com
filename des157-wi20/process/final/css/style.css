@@ -9,16 +9,18 @@
 }
 
 .modal {
-  position: fixed;
-  top: 268%;
-  left: 50%;
   transform: translate(-50%, -50%) scale(0);
   transition: 200ms ease-in-out;
   z-index: 10;
   background-color: rgba(66, 66, 66, .55);
-  width: 60%;
-  max-width: 80%;
+  width: 100%;
+  max-width: 100%;
   color: #fff;
+  position: absolute;
+  top: 83%;
+  left: 50%;
+  height: 30%;
+ 
 }
 
 .modal.active {
@@ -51,7 +53,6 @@
   width: 100%;
   padding: 1% 0%;
   margin-left: 0;
-  margin-top: 0;
 }
 
 /* .modal-body {
@@ -121,17 +122,42 @@ body {
   background-size: cover;
 }
 
-.color4>h1 {
+.color4 {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.container { 
+  border: 3px solid blue;
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  height: 50vh;
+  /* display: flex; */
+  position: relative;
+  justify-content: center;
+  
+}
+
+.container h1 {
   text-align: center;
   margin:0 auto;
-  width: 60%;
+  max-width: 1200px;
+  width: 100%;
   color: white;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: calc(2.8em + 1vw);
   font-weight: 300;
   background-color: rgba(66, 66, 66, .55);
-  padding: 1% 0 1% 0;
+  padding: 2% 0 1% 0;
+  height: 40%;
 }
+
+
+
 
 .color7>.background>h1 {
   text-align: center;
@@ -154,10 +180,7 @@ body {
   padding:0% 0 0% 0;
 }
 
-.color4 {
-  padding-top: 14.5%;
-  text-align: center;
-}
+
 
 .color7 {
   padding-top: 20%;
@@ -341,7 +364,7 @@ button {
     border: none;
     outline: none;
     font-size: 30px;
-    background:rgb(248, 0, 0,.55);
+    background:rgba(27, 84, 241, 0.95);
     cursor: pointer;
     padding: 1%;
     font-size: 25px ;
@@ -349,6 +372,11 @@ button {
     font-weight: 300;
     text-align: center;
     margin-top: 2%;
+    height: 12%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #Read {
@@ -567,5 +595,7 @@ a:hover {
 a:active {
   text-decoration: underline;
 }
+
+
 
 
