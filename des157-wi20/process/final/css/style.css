@@ -96,23 +96,24 @@ body {
   font-weight: 300;
   line-height: 120%;
   margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+}
+
+.color8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  text-align: center;
 }
 
 
 #color8h1 {
-  text-align: center;
-  margin:0 auto;
   width: 78%;
   color: white;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: calc(3.5em + 1vw);
   font-weight: 300;
   line-height: 120%;
-  padding: 20% 0;
 }
 
 .color1 {
@@ -120,6 +121,9 @@ body {
   background-repeat:no-repeat;
   background-position:center center;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .color4 {
@@ -160,32 +164,30 @@ body {
 
 
 .color7>.background>h1 {
-  text-align: center;
-  margin:0 auto;
   width: 60%;
   color: white;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: calc(2.0em + 1vw);
   font-weight: 550;
   line-height: 75px;
+  margin: 0 auto;
 }
 
 .background {
   background-color: rgba(21, 43, 58, .55);
   padding:1% 0 1% 0;
-  
+  text-align: center;
+}
+
+.background2 {
+  background-color: rgba(21, 43, 58, .55);
+  padding:1% 0 1% 0;
+  text-align: left;
 }
 
 #s2background {
   padding:0% 0 0% 0;
 }
-
-
-
-.color7 {
-  padding-top: 20%;
-}
-
 
 .box {
     height: 100vh;
@@ -271,25 +273,27 @@ img {
 }
 
 .s4 p {
-  padding: 40% 5% 2% 5%;
-  margin-right: 10%;
-  margin-left: 15%;
-  margin-top: 0%;
   font-size: 29px ;
   color : #fff;
   width: 68%;
   line-height: 39px;
+  margin: 0;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .s5 p {
-  padding: 40% 5% 2% 5%;
-  margin-right: 10%;
-  margin-left: 15%;
-  margin-top: 0%;
   font-size: 29px ;
   color : #fff;
   width: 68%;
   line-height: 39px;
+  margin: 0;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .color6 p {
@@ -342,6 +346,9 @@ img {
   background-repeat:no-repeat;
   background-position:center center;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 p {
@@ -509,6 +516,7 @@ background-repeat:no-repeat;
   background-repeat:no-repeat;
   background-position:center center;
   background-size: cover;
+  position: relative;
 }
 
 .s5 {
@@ -516,6 +524,7 @@ background-repeat:no-repeat;
   background-repeat:no-repeat;
   background-position:center center;
   background-size: cover;
+  position: relative;
 }
 
 .s8 {
