@@ -82,16 +82,23 @@ body {
   overflow-x: hidden;
 }
 
+.color1 {
+  position: relative;
+}
+
 #color1h1 {
   text-align: center;
-  margin:0 auto;
   width: 70%;
   color: white;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: calc(4em + 1vw);
   font-weight: 300;
   line-height: 120%;
-  padding: 421px 0;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 
@@ -177,9 +184,6 @@ body {
     width: 100%;
 }
 
-
-
-
 .single-box .div-left {
     width: 49%;
     height: auto;
@@ -192,23 +196,8 @@ body {
     float: right;
 }
 
-
-
 img {
   padding: 20% 5% 0 5%;  
-}
-
-
-
-.color1 p {
-    padding: 5% 5% 5% 5%;
-    margin-left: 15%;
-    margin-top: 15%;
-    font-size: 25px ;
-    color : #fff;
-    background-color:rgba(95, 48, 36, 0.8);
-    border-radius: 10px;
-    line-height: 35px;
 }
 
 .color4 p {
