@@ -135,12 +135,10 @@ body {
 }
 
 .container { 
-  border: 3px solid blue;
   max-width: 1200px;
   width: 100%;
   margin: auto;
   height: 50vh;
-  /* display: flex; */
   position: relative;
   justify-content: center;
   
@@ -517,6 +515,7 @@ background-repeat:no-repeat;
   background-position:center center;
   background-size: cover;
   position: relative;
+ text-align: center;
 }
 
 .s5 {
