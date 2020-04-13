@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+		<title>My Blog</title>
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Audiowide&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/stylesheet.css">
+</head> 
+<body>
+    <script src="https://unpkg.com/scrollreveal@4"></script>
+    <script>
+      window.sr = ScrollReveal({
+        distance: '50px',
+        duration: 700,
+        easing: 'ease',
+        mobile: true,
+        reset: false,
+        viewFactor: 0.4,
+      });
+    </script>
+    <div class="page-wrapper">
+        <div class="top">
+            <div class="container c1">
+              <div class="top_left">
+                      <div class="logo">Jake's&nbsp;</div><div class="logo_bold">Blog</div>
+              </div>
+              <div class="top_right">
+                    <nav>
+                    <ul>
+                        <li><a href="index.html" class="hover">Home</a></li>
+                        <li><a href="#">Design</a></li>
+                        <li><a href="#">Travel</a></li>
+                        <li><a href="#">Toys</a></li>
+                        <li><a href="#">Lifestyle</a></li>
+                    </ul>
+                    </nav>
+                </div>
+          </div>
+     </div>
+
+
+        <header class="top-heaer">
+                <h1 class="headerh1">Jake's Blog</h1>
+        </header> 
+
+
+        <main class="main clearfix">
+            <section class="festure-images clearfix">
+                <div class="container">
+                    <div class="featured s1">
+                        <div id="pic1" class="featured-img"></div>
+                            <h2>The Core Model Blog Post </h2>
+                            <time datetime="2019-05-07">May 16 2019</time>
+                            <p>
+                                In “The Core Model Blog Post”, the author Ida Aalen clams that to create better experience for web, designer need not only professional knowledge about web, but also need communication with users and businessmen. 
+                                <span class="align_right"><a href="post5.html" class="lxmore"> Read More </a></span>
+                            </p>
+                    </div>
+
+                    <div class="featured s2">
+                        <div id="pic2" class="featured-img"></div>
+                            <h2>Mobile and Desktop Design</h2>
+                            <time datetime="2019-05-07">May 7 2019</time>
+                            <p>
+                                I learned that there are many differences between designing desktop and mobile app, and mobile app or website is not just a smaller version of a desktop app or website. They actually have different designs.
+                                <span class="align_right"><a href="post4.html" class="lxmore"> Read More </a></span>
+                            </p>
+                    </div>
+
+                    <div class="featured s3">
+                        <div id="pic3" class="featured-img"></div>
+                            <h2>Research a Typeface</h2>
+                            <time datetime="2019-05-06">May 6 2019</time>
+                            <p>
+                                GT Walsheim is a geometric sans-serif typeface designed by Noël Leu and released in 2010 through Swiss foundry Grilli Type. This font is used by blog design, and it is display text which is used for logo and header and book cover.
+                                <span class="align_right"><a href="post3.html" class="lxmore"> Read More </a></span>
+                            </p>
+                    </div>
+
+                    <div class="featured s4">
+                        <div id="pic4" class="featured-img"></div>
+                            <h2>Semantic HTML</h2>
+                            <time datetime="2019-05-01">May 1 2019</time>
+                            <p>
+                                I learned so many details about how to build a good website. It is the first time that I learn HTML, and I feel confused sometime because put some tag in my HTML file, but it doesn’t work sometimes.  
+                                <span class="align_right"><a href="post2.html" class="lxmore"> Read More </a></span>
+                            </p>
+                    </div>
+
+                    <div class="featured s5">
+                        <div id="pic5" class="featured-img"></div>
+                            <h2>Internet History Follow Up</h2>
+                            <time datetime="2019-04-04">Apr 4 2019</time>
+                            <p>
+                                The internet was once the new frontier. Is there still the opportunity for new businesses to have success or has this platform been dominated by companies such as Amazon, Google, and Facebook? 
+                                <span class="align_right"><a href="post1.html" class="lxmore"> Read More </a></span>
+                            </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>Copyright © 2019 Jake’s Blog. All rights reserved      |     <a class="noline" href="http://validator.w3.org/check?uri=referer">Valid HTML5</a></p>
+        </footer>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+    sr.reveal('.align_right, .s5, .headerh1',{
+        origin: 'top',
+    });
+
+    sr.reveal('' ,{
+        origin: 'bottom',
+    });
+    
+        sr.reveal('.s1 , .s3, .top_left',{
+        origin: 'left',
+    });
+    
+        sr.reveal('.s2 , .s4, .top_right',{
+        origin: 'right',
+    });
+</script>
+</script>
+</body>
+</html>
